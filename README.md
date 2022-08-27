@@ -29,5 +29,9 @@ We have found the following  data:
 ## Communication Protocols
 * We agreed as a team to use Slack as our main source of communication
 
+## Visulaizations
+https://public.tableau.com/app/profile/mariana.isidoro/viz/Project_16613136489750/LifeLadder?publish=yes
+
+
 
 
