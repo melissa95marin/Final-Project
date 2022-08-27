@@ -31,7 +31,7 @@ We have found the following  data:
 
 ## Visulaizations
 https://public.tableau.com/app/profile/mariana.isidoro/viz/Project_16613136489750/LifeLadder?publish=yes
+![Social Support GDP](https://user-images.githubusercontent.com/102998228/187049204-96c96155-9b1c-4bdc-90a1-e6c206e923dd.PNG)
 
-
-
+![Life Ladder](https://user-images.githubusercontent.com/102998228/187049215-b0768156-1eea-4f90-a2a6-49e68db40708.PNG)
 
