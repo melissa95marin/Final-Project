@@ -12,7 +12,7 @@ The happiness scores and rankings use data from the Gallup World Poll . The colu
 * The complete dataset was sourced from [World Happiness Report](https://worldhappiness.report/ed/2022/#appendices-and-data) website
 * Other additional information was found in [World Happiness Report](https://worldhappiness.report/ed/2022/#appendices-and-data) in Kaggle
 
-### 2.1 Data Dictionary
+### 2.1. Data Dictionary
 
 | Variable | DataType | Description |
 | -------- | -------- | ----------- |
@@ -21,8 +21,8 @@ The happiness scores and rankings use data from the Gallup World Poll . The colu
 
 ## 3. Research Questions
 
-1. What is the main well being factor that contributes to increase the hapiness around the world?
-2. Does a high rate of mortality is correlate with less happiness?
+    1. What is the main well being factor that contributes to increase the hapiness around the world?
+    2. Does a high rate of mortality is correlate with less happiness?
 
 ## 4.  Database Model
 
@@ -34,33 +34,37 @@ The happiness scores and rankings use data from the Gallup World Poll . The colu
 
 
 ## 5. Machine Learning Model
-### 5.1 Independent and Dependent Variables Definition
+### 5.1. Independent and Dependent Variables Definition
+
+We have defineed our dependent and independent variables and splitting them into test and train data.
+
 <p align="center">
-  <img  src="Resources/ML1" >
+  <img  src="Resources/ML1.png" >
 </p>
 
-### 5.2 Model Testing
+### 5.2. Model Testing
  After analized the Datasouces we have decided to use Supervised Machine Learning model since we have labeled data. In order to find the perfect model evaluate following models: Linear Regression,Random Forest Regressor, XGBoost, Decision Tree and Bayesian Linear Model. We calculated the **Mean Absolute Error (MAE)** which refers to the magnitude of difference between the prediction of an observation and the true value of that observation.:
 
 <p align="center">
-  <img  src="Resources/ML2" >
+  <img  src="Resources/ML2.png" >
 </p>
  
- We can conclude from the below table that the model with the minimun MAE is **XGBoost**
+ We can conclude from the below table that the model with the minimun MAE is **XGBoost**, so this is the model we are going to use.
  
  <p align="center">
-  <img  src="Resources/ML3" >
+  <img  src="Resources/ML3.png" >
 </p>
  
-### 5.3 Applying XGBoost Model
+### 5.3. Applying XGBoost Model
 
 <p align="center">
-  <img  src="Resources/ML4" >
+  <img  src="Resources/ML4.png" >
 </p>
 <p align="center">
-  <img  src="Resources/ML5" >
+  <img  src="Resources/ML5.png" >
 </p>
 
+[Jupyter Notebook](https://worldhappiness.report/ed/2022/#appendices-and-data) website
 
 ## 6. Visulizations
 https://public.tableau.com/app/profile/mariana.isidoro/viz/Project_16613136489750/LifeLadder?publish=yes
