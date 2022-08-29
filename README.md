@@ -16,8 +16,15 @@ The happiness scores and rankings use data from the Gallup World Poll . The colu
 
 | Variable | DataType | Description |
 | -------- | -------- | ----------- |
-| `country_name` | List all *new or modified* files | Test |
-| `git diff` | Show file differences that **haven't been** staged |  test2|
+| country_name | character | Country name |
+| year | integer | Year|
+| ladder_score | numeric | Life evaluation score |
+| healthy_life_expectancy |	numeric | Healthy life expectancies at birth based on the data extracted from the World Health Organisation (WHO) data repository |
+| social_support | numeric |Defined as having someone to count on in times of trouble (ranked from 0 to 1)
+| freedom_to_make_life_choices | numeric | Defined as the national average of responses to the Gall-WorldPoll question (“Are you satisfied or dissatisfied with your freedom to choose what you do with your life?”) |
+| generosity | numeric | National average of responses to the question - “Have you donated money to a charity in the past month?” |
+| perception_of_corruption |numeric | National average of responses to the questions (“Is corruption widespread throughout the government or not” and “Is corruption widespread within businesses or not?” ) |
+
 
 ## 3. Research Questions
 
@@ -64,7 +71,7 @@ We have defineed our dependent and independent variables and splitting them into
   <img  src="Resources/ML5.png" >
 </p>
 
-[Jupyter Notebook](https://worldhappiness.report/ed/2022/#appendices-and-data) website
+ [Jupyter Noteboook](https://github.com/melissa95marin/Final-Project/blob/main/hapiness_models.ipynb)
 
 ## 6. Visulizations
 https://public.tableau.com/app/profile/mariana.isidoro/viz/Project_16613136489750/LifeLadder?publish=yes
