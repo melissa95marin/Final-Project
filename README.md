@@ -2,7 +2,7 @@
 
 ## 1. Overview of World Happiness Analysis
 
-The purpose of World Happiness Report to review the state of happiness in the world from 2015 until today and show how the new science of happiness explains personal and national variations in happiness.
+The purpose of World Happiness Report is to review the state of happiness, the data gathered are from all over the world and are from the year 2015 to the presnent day. We will be presnting new data that incorperates the science of happiness and explain the variations that are both personal and national that play a part in todays happiness.
 
 
 ##  2. DataSources
