@@ -75,11 +75,11 @@ We have defineed our dependent and independent variables and splitting them into
 
 ## 6. Visulizations
 ![image](https://user-images.githubusercontent.com/102998228/188253859-6e09eca7-da5f-49d9-95b6-14a288fb5a46.png)
-
+Individuals can change the year and country they want to look at according to topic. 
 Story Country by Topics Interactive:https://public.tableau.com/app/profile/mariana.isidoro/viz/CountrybyTopic/CountybyTopic?publish=yes
-
+Dashboad shows, if users wish to interact with the different visuals they can click on the story link.
 Dashboard Rainbow: https://public.tableau.com/app/profile/mariana.isidoro/viz/Rainbow_16619176290710/Colors?publish=yes
-
+Story: https://public.tableau.com/app/profile/mariana.isidoro/viz/Happiness_Rainbow/Happiness_Rainbow
 ## 7. Communication Protocols
 
 We agreed as a team to use Slack as our main source of communication
