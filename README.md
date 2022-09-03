@@ -80,7 +80,7 @@ Interactive Map:https://public.tableau.com/app/profile/mariana.isidoro/viz/Socia
 ![Life Ladder](https://user-images.githubusercontent.com/102998228/187049215-b0768156-1eea-4f90-a2a6-49e68db40708.PNG)
 Interactive Map:https://public.tableau.com/app/profile/mariana.isidoro/viz/Project_16613136489750/LifeLadder?publish=yes
 
-Dashboard of Country by Topics Interactive: https://public.tableau.com/app/profile/mariana.isidoro/viz/CountrybyTopic/CountrybyTopic?publish=yes
+Dashboard of Country by Topics Interactive:https://public.tableau.com/app/profile/mariana.isidoro/viz/CountrybyTopic/CountybyTopic?publish=yes
 
 ## 7. Communication Protocols
 
