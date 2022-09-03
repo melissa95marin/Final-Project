@@ -74,13 +74,11 @@ We have defineed our dependent and independent variables and splitting them into
  [Jupyter Noteboook](https://github.com/melissa95marin/Final-Project/blob/main/hapiness_models.ipynb)
 
 ## 6. Visulizations
-![Social Support GDP](https://user-images.githubusercontent.com/102998228/187049204-96c96155-9b1c-4bdc-90a1-e6c206e923dd.PNG)
-Interactive Map:https://public.tableau.com/app/profile/mariana.isidoro/viz/SocialSupportLogGDP/SocialSupportLogGDP?publish=yes
+![image](https://user-images.githubusercontent.com/102998228/188253859-6e09eca7-da5f-49d9-95b6-14a288fb5a46.png)
 
-![Life Ladder](https://user-images.githubusercontent.com/102998228/187049215-b0768156-1eea-4f90-a2a6-49e68db40708.PNG)
-Interactive Map:https://public.tableau.com/app/profile/mariana.isidoro/viz/Project_16613136489750/LifeLadder?publish=yes
+Story Country by Topics Interactive:https://public.tableau.com/app/profile/mariana.isidoro/viz/CountrybyTopic/CountybyTopic?publish=yes
 
-Dashboard of Country by Topics Interactive:https://public.tableau.com/app/profile/mariana.isidoro/viz/CountrybyTopic/CountybyTopic?publish=yes
+Dashboard Rainbow: https://public.tableau.com/app/profile/mariana.isidoro/viz/Rainbow_16619176290710/Colors?publish=yes
 
 ## 7. Communication Protocols
 
