@@ -7,7 +7,7 @@ The purpose of World Happiness Report is to review the state of happiness, the d
 
 ##  2. DataSources
 
-The happiness scores and rankings use data from the Gallup World Poll . The columns following the happiness score estimate the extent to which each of six factors – Log GDP per capita, Social support, Healthy life expectancy at birth, Freedom to make life choices,Generosity ,Perceptions of corruption, Positive affect, Negative affect,Confidence in national government.
+The happiness scores and rankings use data from the Gallup World Poll . The columns following the happiness score estimate the extent to which each of six factors – Log GDP per capita, Social support, Healthy life expectancy at birth, Freedom to make life choices, Generosity ,Perceptions of corruption, Positive affect, Negative affect, Confidence in national government.
 
 * The complete dataset was sourced from [World Happiness Report](https://worldhappiness.report/ed/2022/#appendices-and-data) website
 * Other additional information was found in [World Happiness Report](https://worldhappiness.report/ed/2022/#appendices-and-data) in Kaggle
@@ -34,7 +34,7 @@ The happiness scores and rankings use data from the Gallup World Poll . The colu
 ## 4.  Database Model
 
  * We are going to use PostgreSQL as our relational database management system. This is the first draft of our DB schema: 
- * 
+  
 <p align="center">
   <img  src="db_squema_draft1.png" >
 </p>
@@ -43,30 +43,72 @@ The happiness scores and rankings use data from the Gallup World Poll . The colu
 ## 5. Machine Learning Model
 ### 5.1. Independent and Dependent Variables Definition
 
-We have defineed our dependent and independent variables and splitting them into test and train data.
+**Independent variables** (also referred to as Features) are the input for a process that is being analyzes. For our analysis the independent variables will be: ***Log GDP per capita, Social support, Healthy life expectancy at birth, Freedom to make life choices, Generosity , Perceptions of corruption, Positive affect, Negative affect,Confidence in national government***.
+
+**Dependent variables** are the output of the process.The dependent value will be: ***ladder_score***.
+
+We have defined our dependent and independent variables and splitting them into test and train data.
 
 <p align="center">
   <img  src="Resources/ML1.png" >
 </p>
 
 ### 5.2. Model Testing
- After analized the Datasouces we have decided to use Supervised Machine Learning model since we have labeled data. In order to find the perfect model evaluate following models: Linear Regression,Random Forest Regressor, XGBoost, Decision Tree and Bayesian Linear Model. We calculated the **Mean Absolute Error (MAE)** which refers to the magnitude of difference between the prediction of an observation and the true value of that observation.:
+After analized the Datasouces we have decided to use Supervised Machine Learning model since we have labeled data. In order to find the perfect model we evaluate the following models: Linear Regression,Random Forest Regressor, XGBoost, Decision Tree and Bayesian Linear Model. 
+We calculated the **Mean Absolute Error (MAE)** which refers to the magnitude of difference between the prediction of an observation and the true value of that observation:
 
 <p align="center">
   <img  src="Resources/ML2.png" >
 </p>
  
- We can conclude from the below table that the model with the minimun MAE is **XGBoost**, so this is the model we are going to use.
+We can conclude from the below table that the models with the minimum MAE are **Random Forest Regressor** and **XGBoost**. To choose the best model, we will calculate the r2_Score value for both models.
+**r2** indicates the proportion of data points which lie within the line created by the regression equation. A higher value of R2 is desirable as it indicates better results. We can import r2_score from sklearn.
  
+#### 5.2.1. XGBoost Model:
+We fit the test and train set into XGBoost Model:
+
  <p align="center">
-  <img  src="Resources/ML3.png" >
+  <img  src="Resources/ML31.png" >
 </p>
- 
-### 5.3. Applying XGBoost Model
+
+Once we have the preditions values we proceed to calculate the r2_score:
+<p align="center">
+  <img  src="Resources/ML32.png" >
+</p>
+
+#### 5.2.2.Random Forest Regressor Model
+We fit the test and train set into Random Forest Regressor Model:
 
 <p align="center">
-  <img  src="Resources/ML4.png" >
+  <img  src="Resources/ML41.png" >
 </p>
+
+Once we have the preditions values we proceed to calculate the r2_score:
+<p align="center">
+  <img  src="Resources/ML42.png" >
+</p>
+
+**Random Forest Regressor** model has a higher value of R2 than XGBoost Model, so it is the model we will use for our analysis.
+
+### 5.3. Applying Random Forest Regressor Model
+
+A random forest model,combines many decision trees into a forest of trees. Random forest algorithm will sample the data and build several smaller, simpler decision trees.
+
+#### 5.3.1 Random forest algorithms benefits
+
+* Are robust against overfitting as all of those weak learners are trained on different pieces of the data.
+* Can be used to rank the importance of input variables in a natural way.
+* Can handle thousands of input variables without variable deletion.
+* Are robust to outliers and nonlinear data.
+* Run efficiently on large datasets.
+
+#### 5.3.2 Random forest algorithms limitations
+
+* When using a random forest, more resources are required for computation.
+* It consumes more time compared to a decision tree algorithm.
+
+Here we can see the predicted values generated for Random Forest Regressor Model:
+
 <p align="center">
   <img  src="Resources/ML5.png" >
 </p>
