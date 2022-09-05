@@ -61,9 +61,12 @@ We calculated the **Mean Absolute Error (MAE)** which refers to the magnitude of
   <img  src="Resources/ML2.png" >
 </p>
  
-We can conclude from the below table that the models with the minimum MAE are **Random Forest Regressor** and **XGBoost**. To choose the best model, we will calculate the r2_Score value for both models.
+We can conclude from the below table that the models with the minimum MAE are **Random Forest Regressor** and **XGBoost**.
+
 **r2** indicates the proportion of data points which lie within the line created by the regression equation. A higher value of R2 is desirable as it indicates better results. We can import r2_score from sklearn.
- 
+
+In order to choose the best model, we will calculate the r2_Score value for both models.
+
 #### 5.2.1. XGBoost Model:
 We fit the test and train set into XGBoost Model:
 
