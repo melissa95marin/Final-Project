@@ -1,5 +1,4 @@
 # World Happiness Analysis
-#### Presentation: https://docs.google.com/presentation/d/1lKVE8HNMGzSC6siw44W5-kzULSFGWgInrgpV2WTA1_A/edit#slide=id.p
 
 
 ## 1. Overview of World Happiness Analysis
@@ -130,5 +129,9 @@ Story: https://public.tableau.com/app/profile/mariana.isidoro/viz/Happiness_Rain
 ## 7. Communication Protocols
 
 We agreed as a team to use Slack as our main source of communication
+
+## Final Presentation
+https://docs.google.com/presentation/d/1lKVE8HNMGzSC6siw44W5-kzULSFGWgInrgpV2WTA1_A/edit#slide=id.p
+<img width="1440" alt="Screen Shot 2022-09-06 at 7 36 30 PM" src="https://user-images.githubusercontent.com/102995385/188776084-b27c7229-b55e-42d7-b3cc-a1b8b49bad99.png">
 
 
