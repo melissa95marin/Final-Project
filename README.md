@@ -122,7 +122,7 @@ Here we can see the predicted values generated for Random Forest Regressor Model
 ## 6. Visulizations
 ![Yellow](https://user-images.githubusercontent.com/102998228/190053886-8eedd185-9da5-45a1-9272-74f388b283b7.PNG)
 
-![Country_Top_Bottom](https://user-images.githubusercontent.com/102998228/190053945-8f57675a-2135-4b92-8891-6b410fc44431.PNG)
+![Top10_Bottom10](https://user-images.githubusercontent.com/102998228/190054293-fc373578-0b05-4dfe-95e6-a507e4ca7ef5.PNG)
 
 Individuals can change the year and country they want to look at according to topic. 
 Story Country by Topics Interactive:https://public.tableau.com/app/profile/mariana.isidoro/viz/CountrybyTopic/CountybyTopic?publish=yes
