@@ -120,9 +120,9 @@ Here we can see the predicted values generated for Random Forest Regressor Model
  [Jupyter Noteboook](https://github.com/melissa95marin/Final-Project/blob/main/hapiness_models.ipynb)
 
 ## 6. Visulizations
-![New_WorldMap](https://user-images.githubusercontent.com/102998228/189794271-8bca85ab-c316-45da-9a43-8c8678b2f1bc.PNG)
+![Yellow](https://user-images.githubusercontent.com/102998228/190053886-8eedd185-9da5-45a1-9272-74f388b283b7.PNG)
 
-![Country_Top_Bottom](https://user-images.githubusercontent.com/102998228/189794458-56e01179-6b75-4ceb-8f60-54bc38635d35.PNG)
+![Country_Top_Bottom](https://user-images.githubusercontent.com/102998228/190053945-8f57675a-2135-4b92-8891-6b410fc44431.PNG)
 
 Individuals can change the year and country they want to look at according to topic. 
 Story Country by Topics Interactive:https://public.tableau.com/app/profile/mariana.isidoro/viz/CountrybyTopic/CountybyTopic?publish=yes
