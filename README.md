@@ -170,6 +170,7 @@ We agreed as a team to use Slack as our main source of communication
 ## 10. Summary
 
 * **'Money'** is the main factor that influence happiness according our dataset and model, followed by ***'Social support'*** and ***'Freedom to make life choices'**
+* For the future analysis we would like to predict that our top five countries will still remain in the top ten seeing how that been the trend for the past ten years and contribute new data into these findings, determine different rates of mortality affecting their happiness.
 
 
 ## 11. Final Presentation
